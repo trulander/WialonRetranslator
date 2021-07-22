@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WialonRetranslator.BusinessLogic", "WialonRetranslator.BusinessLogic\WialonRetranslator.BusinessLogic.csproj", "{B7C2843F-C3EF-46F5-927C-BE472A013FFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WialonRetranslator.Core", "WialonRetranslator.Core\WialonRetranslator.Core.csproj", "{B35F2343-A701-47CA-98CD-7C9513991263}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WialonRetranslator.CLI", "WialonRetranslator.CLI\WialonRetranslator.CLI.csproj", "{3434ABD9-1953-4EE2-BFC0-7A63F58CB100}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WialonRetranslator.Client", "WialonRetranslator.Client\WialonRetranslator.Client.csproj", "{418B0A25-1627-4646-A436-0695F8C7BAD4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WialonRetranslator.DataAccess", "WialonRetranslator.DataAccess\WialonRetranslator.DataAccess.csproj", "{4F7E0D6B-0D17-4B84-82AC-C8A83B6D7611}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WialonRetranslator.BusinessLogic.Tests", "WialonRetranslator.BusinessLogic.Tests\WialonRetranslator.BusinessLogic.Tests.csproj", "{726268D4-0C75-4396-88B0-DC71EE635D06}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B7C2843F-C3EF-46F5-927C-BE472A013FFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7C2843F-C3EF-46F5-927C-BE472A013FFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7C2843F-C3EF-46F5-927C-BE472A013FFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7C2843F-C3EF-46F5-927C-BE472A013FFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B35F2343-A701-47CA-98CD-7C9513991263}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B35F2343-A701-47CA-98CD-7C9513991263}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B35F2343-A701-47CA-98CD-7C9513991263}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B35F2343-A701-47CA-98CD-7C9513991263}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3434ABD9-1953-4EE2-BFC0-7A63F58CB100}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3434ABD9-1953-4EE2-BFC0-7A63F58CB100}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3434ABD9-1953-4EE2-BFC0-7A63F58CB100}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3434ABD9-1953-4EE2-BFC0-7A63F58CB100}.Release|Any CPU.Build.0 = Release|Any CPU
+		{418B0A25-1627-4646-A436-0695F8C7BAD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{418B0A25-1627-4646-A436-0695F8C7BAD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{418B0A25-1627-4646-A436-0695F8C7BAD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{418B0A25-1627-4646-A436-0695F8C7BAD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F7E0D6B-0D17-4B84-82AC-C8A83B6D7611}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F7E0D6B-0D17-4B84-82AC-C8A83B6D7611}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F7E0D6B-0D17-4B84-82AC-C8A83B6D7611}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F7E0D6B-0D17-4B84-82AC-C8A83B6D7611}.Release|Any CPU.Build.0 = Release|Any CPU
+		{726268D4-0C75-4396-88B0-DC71EE635D06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{726268D4-0C75-4396-88B0-DC71EE635D06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{726268D4-0C75-4396-88B0-DC71EE635D06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{726268D4-0C75-4396-88B0-DC71EE635D06}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

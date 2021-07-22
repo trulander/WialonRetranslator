@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+        <UserSecretsId>dotnet-WialonRetranslator.CLI-292DCEA7-589B-4360-8C47-59E24BF31365</UserSecretsId>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.Extensions.Hosting" Version="5.0.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\WialonRetranslator.BusinessLogic\WialonRetranslator.BusinessLogic.csproj" />
+      <ProjectReference Include="..\WialonRetranslator.Core\WialonRetranslator.Core.csproj" />
+      <ProjectReference Include="..\WialonRetranslator.DataAccess\WialonRetranslator.DataAccess.csproj" />
+    </ItemGroup>
+</Project>
